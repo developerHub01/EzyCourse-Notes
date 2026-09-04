@@ -29,7 +29,7 @@
 		- "Enable discussions"
 		- "Motivational popup"
 	- These options available in following lessons type ![[Pasted image 20260904102212.png]]
-		- VIDEO | AUDIO | PPT | PPT 
+		- VIDEO | AUDIO | PPT | PDF 
 	- These types have "Include downloadable file" ![[Pasted image 20260904102537.png]]
 		- VIDEO | AUDIO | PPT | PDF | MULTIPLE | ASSIGNMENT | DOWNLOAD | LIVE | EMBEDDED
 	-  These types have "Enable Student Watch Time Analytics and AI"
@@ -38,6 +38,8 @@
 		- TEXT | VIDEO | AUDIO | PPT | PDF | DOWNLOADABLE | EMBEDDED | MULTIPLE (only if do not have any non free preview-able lesson inside) --- All lesson type which do not have direct interaction with the admin
 	
 - Special Fields by type
+	- **Text:**
+		- Make this lesson printable
 	- **Assignment:** 
 		- "Allow assignment points"
 		- "Disable auto approval"
@@ -45,6 +47,41 @@
 		- "Enable multiple attachments"
 		- "Select accepted file types"
 			- DOCX | DOC | PPTX | PPT | PDF | TXT | Audio | Video | Image | ZIP
+	- **VIDEO:** 
+		- "Enable video completion requirement"
+		- "Block forward seeking"
+		- "Autoplay video"
+	- **PDF:** 
+		- "PDF Stamp
+	- **MULTIPLE:**
+		- No limit of inner lessons count.
+	- **QUIZ:**
+		- QUIZ type:
+			- Normal
+			- On-Demand Randomized (Students will get new set of questions on every retake).
+			- **Quiz settings:** 
+				- Show quiz in mobile app
+				- Allow partial marking.
+					- Only give if selected right options, if any option is wrong means wrong, and if selected right options maybe missed some it will give partial marks of corrected options.
+				- Allow negative marking.
+				- Allow students to skip questions
+				- Shuffle Options.
+				- **When to show answers:**
+					- At the end of the quiz
+					- Instantly (Default)
+					- After all retakes
+				- **Passing criteria:**
+					- By Points
+					- By Percentage
+					- Passing score
+				- Allow retake after completion.
+					- Choose retake score
+							- Average 
+							- Best
+							- Last
+				- Number of retakes (Default: 0) | (Only your last score counts in retake)
+				- Quiz time (in seconds)
+				- Time limit per question (in seconds)   👉 Both Time cant stay together.
 
  - ## lesson discussion
 	- Admin can private message with students in lesson discussion, by selecting private and selecting a student

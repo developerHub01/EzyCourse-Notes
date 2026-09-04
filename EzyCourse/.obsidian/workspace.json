@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d28f703068468c6d",
+        "id": "7a12fffa13d0892f",
         "type": "tabs",
         "children": [
           {
-            "id": "54998a0edf241506",
+            "id": "78a6a7d93f943153",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,12 +188,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "54998a0edf241506",
+  "active": "78a6a7d93f943153",
   "lastOpenFiles": [
+    "EzyCourse/Course Module/Course.md",
     "Pasted image 20260904102537.png",
     "Pasted image 20260904102212.png",
     "Welcome.md",
-    "EzyCourse/Course Module/Course.md",
     "Pasted image 20260904094554.png",
     "EzyCourse/Course Module",
     "EzyCourse/Untitled.md",
