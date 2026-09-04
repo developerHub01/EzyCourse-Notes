@@ -5,7 +5,7 @@
 - **SEO Impact:** Helps improve the target site's search engine rankings and domain authority.
 - **Default Behavior:** By default, all HTML links are dofollow unless explicitly tagged with an attribute like `rel="nofollow"` or `rel="sponsored"`.
 
-## Curriculum 
+## Curriculum:
 - Chapter 
 	- Lesson
 		- Text
@@ -21,6 +21,7 @@
 		- Embedded
 		- SCORM/HTML
 		- Multiple
+	
 - Fact:
 	- Every lesson have following options 
 		- "Draft"
@@ -31,4 +32,20 @@
 		- VIDEO | AUDIO | PPT | PPT 
 	- These types have "Include downloadable file" ![[Pasted image 20260904102537.png]]
 		- VIDEO | AUDIO | PPT | PDF | MULTIPLE | ASSIGNMENT | DOWNLOAD | LIVE | EMBEDDED
-	- 
+	-  These types have "Enable Student Watch Time Analytics and AI"
+		- TEXT | VIDEO | PPT | PDF | AUDIO | MULTIPLE | SURVEY | ASSIGNMENT | EMBEDDED
+	- These types have "Free Preview"
+		- TEXT | VIDEO | AUDIO | PPT | PDF | DOWNLOADABLE | EMBEDDED | MULTIPLE (only if do not have any non free preview-able lesson inside) --- All lesson type which do not have direct interaction with the admin
+	
+- Special Fields by type
+	- **Assignment:** 
+		- "Allow assignment points"
+		- "Disable auto approval"
+		- "Allow editing or deleting a submission"
+		- "Enable multiple attachments"
+		- "Select accepted file types"
+			- DOCX | DOC | PPTX | PPT | PDF | TXT | Audio | Video | Image | ZIP
+
+ - ## lesson discussion
+	- Admin can private message with students in lesson discussion, by selecting private and selecting a student
+	- Free preview student can't join discussions.
