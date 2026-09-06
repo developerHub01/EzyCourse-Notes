@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "8a9580eae16a8604",
@@ -190,11 +191,19 @@
   },
   "active": "78a6a7d93f943153",
   "lastOpenFiles": [
+    "Pasted image 20260906171420.png",
+    "Pasted image 20260906171341.png",
+    "Pasted image 20260906123700.png",
+    "Pasted image 20260906123649.png",
+    "Pasted image 20260906122000.png",
+    "Pasted image 20260906121940.png",
+    "Pasted image 20260906121934.png",
+    "Pasted image 20260906121633.png",
+    "Pasted image 20260906121629.png",
+    "Pasted image 20260906121448.png",
+    "Pasted image 20260906121425.png",
     "EzyCourse/Course Module/Course.md",
-    "Pasted image 20260904102537.png",
-    "Pasted image 20260904102212.png",
     "Welcome.md",
-    "Pasted image 20260904094554.png",
     "EzyCourse/Course Module",
     "EzyCourse/Untitled.md",
     "Untitled",

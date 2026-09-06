@@ -21,21 +21,33 @@
 		- Embedded
 		- SCORM/HTML
 		- Multiple
+	- Name
+	- Description
+	- Set New Lesson by draft
+	- Enable motivational popup
 	
 - Fact:
 	- Every lesson have following options 
 		- "Draft"
+			- Draft then can't access from anywhere, even purchased student also cant access it.
 		- "Prerequisite"
 		- "Enable discussions"
 		- "Motivational popup"
 	- These options available in following lessons type ![[Pasted image 20260904102212.png]]
 		- VIDEO | AUDIO | PPT | PDF 
-	- These types have "Include downloadable file" ![[Pasted image 20260904102537.png]]
-		- VIDEO | AUDIO | PPT | PDF | MULTIPLE | ASSIGNMENT | DOWNLOAD | LIVE | EMBEDDED
-	-  These types have "Enable Student Watch Time Analytics and AI"
+	- These types have "**Include downloadable file**" ![[Pasted image 20260904102537.png]]
+		- TEXT | VIDEO | AUDIO | PPT | PDF | MULTIPLE | ASSIGNMENT | DOWNLOAD | LIVE | EMBEDDED
+		- Not contains in - SURVEY | QUIZ
+	- Following types do not have option "**Make this lesson printable**"
+		- TEXT | MULTIPLE
+	-  These types have "**Enable Student Watch Time Analytics and AI**"
 		- TEXT | VIDEO | PPT | PDF | AUDIO | MULTIPLE | SURVEY | ASSIGNMENT | EMBEDDED
-	- These types have "Free Preview"
-		- TEXT | VIDEO | AUDIO | PPT | PDF | DOWNLOADABLE | EMBEDDED | MULTIPLE (only if do not have any non free preview-able lesson inside) --- All lesson type which do not have direct interaction with the admin
+	- These types have "**Free Preview**"
+		- TEXT | VIDEO | AUDIO | PPT | PDF | DOWNLOADABLE | EMBEDDED | MULTIPLE | SCORM (only if do not have any non free preview-able lesson inside) --- All lesson type which do not have direct interaction with the admin
+	- "**Show In Search Engine**"
+		- Only shows if "Free Preview" is enabled
+		- Shows for following types:
+			- TEXT | PDF | PPT | VIDEO | AUDIO | DOWNLOAD
 	
 - Special Fields by type
 	- **Text:**
@@ -51,10 +63,18 @@
 		- "Enable video completion requirement"
 		- "Block forward seeking"
 		- "Autoplay video"
+			- If autoplay enabled then it automatically complete the lesson
 	- **PDF:** 
 		- "PDF Stamp
+	- **Embedded:**
+		- iframe
+		- html
+		- internal
 	- **MULTIPLE:**
 		- No limit of inner lessons count.
+		- Do not allow to contain QUIZ | SURVEY | ASSIGNMENT | MULTIPLE
+		- Can't add LIVE if multiple enabled free preview.
+		- Also if have LIVE can't enable free preview.
 	- **QUIZ:**
 		- QUIZ type:
 			- Normal
@@ -82,7 +102,216 @@
 				- Number of retakes (Default: 0) | (Only your last score counts in retake)
 				- Quiz time (in seconds)
 				- Time limit per question (in seconds)   👉 Both Time cant stay together.
+	- **SCORM:**
+		- Build tools - 🅰️ Adobe Captivate
+		- **Sharable Content Object Reference Model**
+		- **Facts:**
+			- **What it is:** A global standard allowing e-learning courses and Learning Management Systems (LMS) to talk to each other.
+			- **How it's built:** A `.zip` file containing an XML setup file (`imsmanifest.xml`) plus web assets (HTML, JS, media).
+			- **How it works:** The LMS injects a runtime JavaScript API into the browser window, letting the course package send live data back to the platform.
+			- **Why it's needed:** Unlike basic HTML, it automatically tracks completion, scores, and bookmarking (resuming where you left off) across any platform without custom code.
+			- Differences between SCORM and Embedded lesson
+				- **Structure & Format**
+					- **Embedded Lesson:** Renders an external URL or raw inline code block via an iframe.
+					- **SCORM Lesson:** Delivered as a standardized `.zip` package containing an XML manifest (`imsmanifest.xml`) and assets.
+				- LMS Communication
+					- **Embedded Lesson:** One-way street; completely isolated from the host platform with zero data exchange.
+					- **SCORM Lesson:** Two-way bridge; uses standard JavaScript runtime APIs to send telemetry directly to the LMS database.
+				- **Progress & Tracking**
+					- **Embedded Lesson:** Cannot report completion, pass/fail results, or user scores (unless using custom third-party workarounds).
+					- SCORM Lesson:** Automatically transmits precise grades, completion status, and analytics to your dashboard.
+				- **State & Bookmarking**
+					- **Embedded Lesson:** Resets to the start every time a student leaves and reopens the lesson.
+					- **SCORM Lesson:** Tracks progress memory, allowing students to close the browser and resume right where they left off.
+				- **Portability**
+					- **Embedded Lesson:** Bound to a specific external web link or individual site structure.
+					- **SCORM Lesson:** Universally portable; the exact same zip file can be dropped into any compliant LMS without code changes.
+		- **Sandbox Environment**
+			- **Embedded Lesson:** Completely isolated with zero data exchange and no platform hooks.
+			- **SCORM Lesson:** Provides standardized API objects (`API` for SCORM 1.2 or `API_1484_11` for SCORM 2004) that bridge the sandbox to securely send data back to the LMS.
+		- Passing required (Enable passing required for this lesson)
+			- **Facts:**
+				- **What it is:** A lesson setting that forces students to achieve a specific grade threshold in a SCORM assessment to successfully complete the lesson.
+				- **How it works:**
+					- The passing score is pre-defined inside the SCORM package file itself.
+					- When a student finishes the assessment, the package reports the final grade back to the platform via its API.
+					- If the student meets or exceeds the threshold, the platform marks the lesson as complete; if they fail, the lesson stays incomplete.
+					- When paired with a prerequisite rule, failing the assessment blocks access to all subsequent lessons until the student passes.
 
  - ## lesson discussion
 	- Admin can private message with students in lesson discussion, by selecting private and selecting a student
 	- Free preview student can't join discussions.
+
+
+
+
+## Settings:
+- **Basic information:**
+	- Course Name
+	- Course Slug (must be unique)
+	- Course image (16/9)
+	- Course video
+	- Select course preview type
+		- Image | Video
+	- Short description (255)
+	- Course description
+	- Limit course enrollments (if reduce limit after that threshold reached existing student do not get effected)
+- **Advanced information:**
+	- Course language
+	- Video duration (Hours)
+	- Select payment methods (Support multiple or all)
+	- Others
+		- Add course level
+			- Beginner | Intermediate | Advanced
+		- Add course assurance 
+			- Accept raw **TEXT**
+		- Course Includes
+			- Show Quizzes Number Count
+			- Show Assignments Number Count
+			- Add Custom Course Includes
+				- Raw TEXT (support multiples)![[Pasted image 20260906121425.png]]![[Pasted image 20260906121448.png]]
+			- Add learning outcomes
+				- Raw TEXT (support multiples)
+				- ![[Pasted image 20260906121629.png]]![[Pasted image 20260906121633.png]]
+			- Add FAQ
+				- Question (TEXT)
+				- Answer (TEXT - MULTI-LINE)
+				- ![[Pasted image 20260906121934.png]]![[Pasted image 20260906121940.png]]![[Pasted image 20260906122000.png]]
+			- Enable course review (Determine show student review in the course details page or not)
+			- Enable gifting
+				- Can gift from checkout page, field expect
+					- Recipient mail
+					- Personal message (optional)
+					- When should send
+						- Now 
+						- Schedule
+				- ![[Pasted image 20260906123700.png]]
+- **Landing page:**
+	- Select Course Details Page
+		- Three course details template
+	- Enrollment count
+		- Hide enrollment count (Shows in course details page)
+	- Landing page URL
+		- If want custom page
+- **After checkout page:**
+	- After Checkout Page URL
+		- INTERNAL 
+		- EXTERNAL
+- Certificate settings:
+	- Provide a certificate at the end of this course (Default: Off)
+		- Certificate
+			- Select from certificate list
+		- Allow certificate without completing all course contents
+		- Display course completion time on the certificate
+- Course accessibility:
+	- Accessibility status
+		- PUBLIC
+		- PRIVATE (Your course offering will remain public, but students must first request access from you in order to enroll.)
+		- HIDDEN
+			- Can access  through checkout, landing page, bundle course, membership
+			- The course will not appear on your website,and is only accessible if you send someone the direct link to the course landing page.
+		- RESTRICTED 
+			- Can access through manual, membership and bundle.
+			- This course will be visible everywhere, but users won't be able to buy it or send purchase requests.
+		- Fact:
+			- If expired the course then have to buy again to resume.
+	- Publishing status
+		- Published
+		- Draft
+	- Pre-sell settings
+		- Charge option
+			- Immediate 
+			- Later (can see from pre-sell tab. And admin)
+- Motivation popup:
+	- Fact:
+		- Merge Fields
+		- first_name
+		- last_name
+	- Title
+	- Description
+	- Background color
+	- Select image
+		- Support any image/Gifs
+- Grade setting
+	- If grade is enabled then it shows in student site, based on all marks.![[Pasted image 20260906171420.png]]
+	 **![[Pasted image 20260906171341.png]]**
+- Redirect to checkout page
+	- Can add custom page for checkout
+
+## Drip:
+- Choose drip type
+	- Immediately
+	- Enrollment based
+		- Set the release day for each lesson from the enrollment day.
+	- Specific date
+		- Set the specific date for each lesson.
+## Pricing:
+- Fact:
+	- Billing period can be custom
+		- Where can set how many long a period will count. Like one period is 5 days or 2 months
+- One time plan (Standard)
+	- Only add pricing once.
+	- Enable trial without a card, (Day wise1)
+- Split payment 
+	- Can design the payment flow with splitting into N installment and "Use advance installment options"
+	- No trial
+	- Initial cycle
+- Subscription Plan (Standard)
+	- Initial cycle
+	- Trial Subscription without card.
+- One time Plan (Tiered)
+	-  Only add pricing once.
+	- Calculate as packages like unite based prices, for X unit price will be Y.
+	- Don't multiply price and unit after x quantity
+		- After reaching that unit any unit of product will be that X quantity price. For example if X is 15 and price is 40 then for next 16 or 20 unit price will be 15X40
+- Subscription Plan(Tiered)
+	- Same as One time Plan (Tiered)
+	- Trial Subscription without card
+- One-time Plan - Flat Price (Tiered)
+	- Same as One time plan (Tiered) --> But do not multiply or fixed pricing
+	- No trial
+- Subscription Plan - Flat Price(Tiered)
+	- Same as subscription plan (tiered) but with no multiply or fixed priching
+	- Have free trial, with or without card.
+- Donation Plan (One Time)
+	- Suggest a preset amount
+	- Set limits
+		- Minimum Amount(optional)
+		- Maximum Amount(optional)
+	- Allows Trial Subscription
+		- With or without card
+- Donation Plan (Recurring)
+	- Mix of subscription + donation
+
+
+## Certificate Blueprints
+- Certificate Editor
+	- Name
+	- Template (3)
+		- Besides that user can update the certificate source code or use **own code to design** certificate. 
+	- Content:
+		- Title
+		- Text above student name
+		- Text above course name
+		- Text below course name
+		- Issued at label
+		- Expire type
+			- Never
+			- Specific date
+			- X days after issued
+			- Certificate ID label
+			- Completion time label
+			-
+	- Style:
+		- Font
+		- Primary Color
+		- Secondary Color
+		- Tertiary Color
+		- Background Image
+		- Logo
+	- Dynamic variables:
+		- **STUDENT_NAME**
+		- **COURSE_TITLE**
+		- **ISSUED_AT**
+		- **COMPLETION_TIME**
+		- **CERTIFICATE_ID**
