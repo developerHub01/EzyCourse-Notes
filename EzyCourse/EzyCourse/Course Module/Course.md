@@ -8,6 +8,7 @@
 ## Curriculum:
 - Chapter 
 	- Lesson
+		- AI
 		- Text
 		- Video
 		- PPT
@@ -50,6 +51,27 @@
 			- TEXT | PDF | PPT | VIDEO | AUDIO | DOWNLOAD
 	
 - Special Fields by type
+	- AI
+		- Source
+			- Can add at most 3 source
+			- Source can be
+				- Description
+				- Documents
+				- URL
+		- Customize
+			- Slide deck details
+				- Audience
+				- Output language
+				- Duration
+				- Background colour
+				- Accent / brand colour
+				- What should the learner be able to do?
+				- Let AI expand with its expertise
+					- AI will expand the course on the topic based on facts
+				- Add a gamified end-of-lesson quiz
+					- It will add quiz to make it interactive
+		- Generate
+		- Ready
 	- **Text:**
 		- Make this lesson printable
 	- **Assignment:** 
@@ -59,11 +81,15 @@
 		- "Enable multiple attachments"
 		- "Select accepted file types"
 			- DOCX | DOC | PPTX | PPT | PDF | TXT | Audio | Video | Image | ZIP
+		- Once assignment accepted cant submit again, until admin delete the response.
+		- Same way admin cant reject the accepted response or accept the rejected response
 	- **VIDEO:** 
 		- "Enable video completion requirement"
 		- "Block forward seeking"
 		- "Autoplay video"
 			- If autoplay enabled then it automatically complete the lesson
+		- "Block forward seeking"
+			- This will apply once in a video, once complete user can forward seeking in the video
 	- **PDF:** 
 		- "PDF Stamp
 	- **Embedded:**
@@ -102,6 +128,11 @@
 				- Number of retakes (Default: 0) | (Only your last score counts in retake)
 				- Quiz time (in seconds)
 				- Time limit per question (in seconds)   👉 Both Time cant stay together.
+		- Admin can give feedback
+		- Negative marking works different
+			- It will divide the negative marking over all options in the question and will reduce only for which were wrong in the single question
+				- Ex: if have 3 table matching with 3 point, and 1 corrected and negative point is 0.25 then it will do 1 - 2 x 0.25 / 3
+			- If enable partial marking then negative value also get partial negative.
 	- **SCORM:**
 		- Build tools - 🅰️ Adobe Captivate
 		- **Sharable Content Object Reference Model**
@@ -243,8 +274,10 @@
 	- Immediately
 	- Enrollment based
 		- Set the release day for each lesson from the enrollment day.
+		- Sequence does matter, however you organized try best to organized sequentially.
 	- Specific date
 		- Set the specific date for each lesson.
+		- Respect admin specified date, no matter future or past, sequence doesn't matter.
 ## Pricing:
 - Fact:
 	- Billing period can be custom
@@ -283,6 +316,17 @@
 - Donation Plan (Recurring)
 	- Mix of subscription + donation
 
+
+
+## Bundle course:
+- Facts
+	- Bundle course can override any accessibility
+	- Settings
+		- Same as single course extra option --> Enable Progressive mode
+			- **Enable Progressive mode**
+				- It force user to complete courses sequentially
+	- While creating it do not shows "**Accessibility**" and can change it from settings after creating the course
+	- For any draft course under the bundle it shows in the list but while accessing shows 404
 
 ## Certificate Blueprints
 - Certificate Editor
