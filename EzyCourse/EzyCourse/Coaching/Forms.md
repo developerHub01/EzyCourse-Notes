@@ -1,0 +1,4 @@
+- FORMS
+	- Add new form redirect into the form list inside Marketing & Contacts
+- ADVANCED FORMS
+	- Redirect to the new form editor.

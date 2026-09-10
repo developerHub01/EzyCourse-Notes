@@ -1,0 +1,98 @@
+- Create
+	- Title
+	- Description
+	- Short description
+	- Category
+	- Access
+		- PUBLIC | PRIVATE | HIDDEN | RESTRICTED
+	- Student limit
+	- Coaching Type
+		- One-to-One:
+			- One to One Coaching
+		- Date Based:
+			- Week Based
+			- Continuous
+		- Non-Date Based:
+			- Session Based
+			- Evergreen
+	- Feature Image (100MB)
+	- Banner Image (100MB)
+	- After Checkout Page URL
+
+
+- Can't duplicate.
+
+- Non one-to-one coaching facts
+	- Anyone can see quiz leader-board, do not depends on visibility.
+	- Lessons
+		- Types
+			- TEXT
+				- Description (Required)
+			- VIDEO
+			- AUDIO
+			- PPT
+				- Do not give view options, have to download to view
+			- PDF
+				- Shows inside pdf viewer
+			- DOWNLOAD
+			- LIVE
+				- Live lesson type
+					- External
+					- Meeting Link
+					- Start Time
+					- Timezone
+				- Can not clone or move to another session
+				- Schedule
+					- Can schedule reminder email for students
+					- Support multiple for one lesson.![[Pasted image 20260910110605.png]]
+			- EMBEDDED
+				- Embed Type
+					- Iframe
+					- HTML
+			- QUIZ
+		- Facts:
+			- All lesson types have 
+				- Name
+				- Description
+				- Video | PPTX | PDF | Audio | Downloadable
+			- Can 
+				- Edit | Move to another lesson | Clone lesson | Disable Discussion | Delete
+					- But in 
+						- Live
+							- Move to another lesson ❌ 
+							- Clone lesson ❌
+							- Edit
+								- If live started ❌
+								- Else ✅
+						- Quiz
+							- Clone lesson ❌
+
+	- Add Item
+		- Types
+			- Tasks (from library)
+			- Exercises (from library)
+			- Journal
+				- Title
+				- Prompt
+				- Journal Settings
+					- Character Limit (1 - 20, 000)
+					- Allow Student Edit (Default: Enabled)
+			- Trackers (from library)
+		- Coach can feedback on item submissions.
+	- Habit tracker
+		- Same as tracker with some extra fields
+			- Tracker Repeat Type
+				- Daily
+				- Weekly
+					- Have to select days of the week.
+			- Start Date (optional)
+				- Support one week range in both start and end.
+			- End Date (optional)
+		- Admin can see students habit tracker
+		- Admin can delete all other tracker even student's tracker
+		- Teacher cant delete other's tracker
+	- Preview Sessions
+		- While creating
+		- Shows
+			- Total Weeks | Days
+			- With their listings.

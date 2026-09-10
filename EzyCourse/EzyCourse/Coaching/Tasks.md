@@ -1,0 +1,13 @@
+- Title
+- Description (optional)
+- Feature Image
+- Category
+- Add Tracker (Optional)
+- Upload Files (Optional)
+- Select the file formats that students can upload (optional)
+	- Image
+	- Video 
+	- Audio
+	- PDF 
+	- DOCS
+	- PPT

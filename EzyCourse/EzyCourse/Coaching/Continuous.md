@@ -1,0 +1,19 @@
+- Create
+	- Submission Visibility
+		- All (All students can see each other’s submissions. **DEFAULT**)
+		- Own (Students can only see their own submissions.)
+	- Allow Submission on Previous Sessions (**DEFAULT: Disabled**)
+	- Allow Enrollment in Current Batch (**DEFAULT: Disabled**)
+	- Habit Tab (**Default: Disabled**)
+		- Allow Students to Create Habits (Own private habit)
+			- If enabled then all types of submission no matter Lesson | Item | Habit students can see each other submissions.
+- Facts:
+	- Batch-1 creates on first creation of coaching
+	- Once added weeks, and starting day of the weeks trigger it as batch started, so if new student enroll the course he will be in new batch, so if it was batch-1 and added the weeks then if anyone enroll he will be in batch-2
+	- Once batch are started they works like isolated instance, so all batch as like individual instance. So after that there is no coupled behavior, if admin want to extend batch-1 he can or delete a week he can it wont impact batch-2 or other.
+	- And new batch always copy the previous batch, even schedule and content. 
+	- New batch do not just start next days instead if will start at next nearest starting day.
+	- If allow enrollment in current batch then, it will not create new batch because of that new enrollment.
+
+	- If starting day is future and someone enroll will be enter in that batch instead of creating new one.
+	- Can't add days but can delete

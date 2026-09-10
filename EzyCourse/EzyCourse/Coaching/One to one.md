@@ -1,0 +1,43 @@
+- Create
+	- Appointment Settings
+		- Enable Booking (Default: disabled, once created that cant change, so if not enabled then cant enable after that, even while updating the setting cant enable any disabled coaching).
+		- Allowed Free Slots (Number, Default: 0)
+		- Allow Additional Sessions
+		- Select Appointment
+- Thread
+	- Options
+		- Simple Text
+		- Rich Text
+		- Document
+		- Photos & Videos
+		- Audio
+		- Record Voice
+		- Assign Task (Admin)
+			- Can't edit the task while creating but after creating can update the task but cant edit tracker only can change the current tracker
+			- Tracker update do not reflect on the added task, because while adding task tracker is **just copied to the task not in dependency relationship**
+			- Student can update submissions
+		- Add Form (Admin)
+			- Unlike Task, Form type thread cant edit, only can edit the main form.
+			- And unlike task which used to copy from the source so if main tracker get change task type thread do not get update, but in form it is synced with the main form, means if form get update form thread will also get updated things.
+	- Facts
+		- On creating thread student/admin get notification.
+		- In feed latest are in bottom
+		- In thread list, latest are in top
+		- Latest added pin get first position
+		- Thread list pagination size **10**
+		- Pin support at most 10
+		- In thread reply only can use
+			- Simple Text
+			- Rich Text
+			- Document
+			- Photos & Videos
+			- Audio
+			- Record Voice
+- Live sessions
+	- States
+		- Upcoming Sessions
+			- ![[Pasted image 20260908144731.png]]
+		- Ongoing Sessions
+			- ![[Pasted image 20260908144749.png]]
+		- Past Sessions
+			- ![[Pasted image 20260908145131.png]]

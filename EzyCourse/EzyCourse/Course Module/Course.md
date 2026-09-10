@@ -5,6 +5,13 @@
 - **SEO Impact:** Helps improve the target site's search engine rankings and domain authority.
 - **Default Behavior:** By default, all HTML links are dofollow unless explicitly tagged with an attribute like `rel="nofollow"` or `rel="sponsored"`.
 
+
+- Fact:
+	- Course works as assembler, where ready made things get connected. Like survey or quiz anything first have to create them and then integrate them into the course.  
+	- Courses have category and sub-category options available.
+
+
+
 ## Curriculum:
 - Chapter 
 	- Lesson
@@ -95,6 +102,7 @@
 	- **Embedded:**
 		- iframe
 		- html
+			- Can not add `<script>` tag
 		- internal
 	- **MULTIPLE:**
 		- No limit of inner lessons count.
@@ -133,6 +141,7 @@
 			- It will divide the negative marking over all options in the question and will reduce only for which were wrong in the single question
 				- Ex: if have 3 table matching with 3 point, and 1 corrected and negative point is 0.25 then it will do 1 - 2 x 0.25 / 3
 			- If enable partial marking then negative value also get partial negative.
+		- Have leader-board option.
 	- **SCORM:**
 		- Build tools - 🅰️ Adobe Captivate
 		- **Sharable Content Object Reference Model**
@@ -176,6 +185,9 @@
 
 
 
+	- **Live**
+		- External
+		- Native
 ## Settings:
 - **Basic information:**
 	- Course Name

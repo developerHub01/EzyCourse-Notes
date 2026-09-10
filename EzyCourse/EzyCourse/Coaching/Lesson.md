@@ -1,0 +1,13 @@
+- Types 
+	- VIDEO
+	- TEXT
+	- PPT
+	- PDF
+	- AUDIO
+	- DOWNLOAD
+	- EMBEDDED
+		- Iframe
+		- HTML
+	- QUIZ
+		- It behaves like just template
+- 

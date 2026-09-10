@@ -1,0 +1,21 @@
+- Contain 
+	- Title
+	- Feature Image
+	- Category
+	- Choose Tracker Type
+		- Number
+			- Label
+			- Goal
+			- Unit
+		- Question
+			- Plain question
+		- Select one
+			- Dropdown selector
+			- Question with options
+		- Duration
+			- Label
+			- Start time
+			- Goal 
+			- Unit
+				- Minutes
+				- Hours

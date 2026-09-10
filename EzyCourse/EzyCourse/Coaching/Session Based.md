@@ -1,0 +1,23 @@
+- Create
+	- Submission Visibility
+		- All (All students can see each other’s submissions. **DEFAULT**)
+		- Own (Students can only see their own submissions.)
+	- Habit Tab (**Default: Disabled**)
+		- Allow Students to Create Habits (Own private habit)
+			- If enabled then all types of submission no matter Lesson | Item | Habit students can see each other submissions.
+- Facts:
+	- Add New session, allow to dynamically add multiple sessions with sub-sessions![[Pasted image 20260910164131.png]]
+	- Admin
+		- Can add sessions and sub-sessions
+		- Sessions have following options
+			- Add sub-sessions
+			- Edit session
+			- Delete
+		- Sub-sessions have following options
+			- Edit sub-sessions
+			- Mark as incomplete/complete
+				- Progress depend on this complete state, based on that % calculate.
+			- Mark as current
+			- Feed reorder
+			- Delete
+		- 

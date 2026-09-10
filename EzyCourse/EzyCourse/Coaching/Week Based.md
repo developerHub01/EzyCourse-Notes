@@ -1,0 +1,10 @@
+- Create
+	- Submission Visibility
+		- All (All students can see each other’s submissions. **DEFAULT**)
+		- Own (Students can only see their own submissions.)
+	- Allow Submission on Previous Sessions (**DEFAULT: Disabled**)
+	- Habit Tab (**Default: Disabled**)
+		- Allow Students to Create Habits (Own private habit)
+			- If enabled then all types of submission no matter Lesson | Item | Habit students can see each other submissions.
+- Fact:
+	- Can't add days but can delete
