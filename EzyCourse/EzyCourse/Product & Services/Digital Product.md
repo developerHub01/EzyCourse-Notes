@@ -1,0 +1,24 @@
+- **Create:**
+	- Title
+	- Description (Rich text editor)
+	- Short Description
+	- Category
+	- Access:
+		- PUBLIC
+		- PRIVATE
+		- HIDDEN
+		- RESTRICTED PRODUCT
+	- Status:
+		- Publish now
+		- Draft
+	- Upload Digital Downloadable File
+		- Upload
+		- Link
+	- Upload Product Images
+	- Specifications
+		- Can add multiple
+		- Options
+			- Name
+			- Value
+			- Is key feature
+	- After Checkout Page URL
