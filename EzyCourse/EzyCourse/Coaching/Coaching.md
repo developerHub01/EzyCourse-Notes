@@ -19,6 +19,16 @@
 	- Banner Image (100MB)
 	- After Checkout Page URL
 
+- Pricing
+	- Only support non tier pricing plans
+		- Cause coaching for single persons and not for bulk buying
+	- Supported plans
+		- One time
+		- Subscription
+		- Split Payment
+		- Donation Plan (One time)
+		- Donation Plan (Recurring)
+
 
 - Can't duplicate.
 

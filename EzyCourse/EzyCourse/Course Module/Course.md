@@ -56,7 +56,8 @@
 		- Only shows if "Free Preview" is enabled
 		- Shows for following types:
 			- TEXT | PDF | PPT | VIDEO | AUDIO | DOWNLOAD
-	
+	- **If grade is enabled only then students can see marksheet.**
+
 - Special Fields by type
 	- AI
 		- Source
