@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "8e58d06bdd1be2d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EzyCourse/Product & Services/Digital Products.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Products"
+            }
+          },
+          {
             "id": "78a6a7d93f943153",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Product & Services/Digital Product.md",
+                "file": "EzyCourse/Pricing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Product"
-            }
-          },
-          {
-            "id": "2c6c31ad78cf0af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EzyCourse/Coaching/Session Based.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session Based"
+              "title": "Pricing"
             }
           }
         ]
@@ -202,17 +202,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "78a6a7d93f943153",
+  "active": "8e58d06bdd1be2d7",
   "lastOpenFiles": [
+    "EzyCourse/Product & Services/Product Categories.md",
+    "EzyCourse/Product & Services/Physical Products.md",
+    "Pasted image 20260913115740.png",
+    "EzyCourse/Product & Services/Digital Products.md",
+    "EzyCourse/Coaching/Coaching.md",
+    "EzyCourse/Coaching/Session Based.md",
+    "EzyCourse/Pricing.md",
     "EzyCourse/Coaching/Evergreen.md",
-    "EzyCourse/Product & Services/Digital Product.md",
     "EzyCourse/Product & Services",
     "EzyCourse/Course Module/Course.md",
     "Pasted image 20260904094554.png",
     "Pasted image 20260911143310.png",
     "Pasted image 20260911142719.png",
-    "EzyCourse/Coaching/Coaching.md",
-    "EzyCourse/Coaching/Session Based.md",
     "EzyCourse/Coaching/Week Based.md",
     "EzyCourse/Coaching/Continuous.md",
     "Pasted image 20260910164131.png",
@@ -228,10 +232,8 @@
     "EzyCourse/Coaching/Lesson.md",
     "EzyCourse/Coaching/Exercis.md",
     "EzyCourse/Coaching",
-    "Pasted image 20260906171420.png",
     "Welcome.md",
     "EzyCourse/Course Module",
-    "EzyCourse/Untitled.md",
     "Untitled",
     "EzyCourse"
   ]

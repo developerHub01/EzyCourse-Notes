@@ -1,0 +1,32 @@
+- Same as digital product
+- Create
+	- Title
+	- Description (Rich text editor)
+	- Short Description
+	- Category
+	- Access:
+		- PUBLIC
+		- PRIVATE
+		- HIDDEN
+		- RESTRICTED PRODUCT
+	- Status:
+		- Publish now
+		- Draft
+	- Upload Product Images
+	- Specifications
+		- Can add multiple
+		- Options
+			- Name
+			- Value
+			- Is key feature
+	- After Checkout Page URL
+
+- Facts
+	- In orders for physical product have **Delivery Status**
+		- Processing
+		- Shipped
+		- Ready for pick-up
+		- Picked up
+		- Delivered![[Pasted image 20260913115740.png]]
+	- If refund (From order list)
+		- Then order will be cancel and user wont be able to access it anymore.

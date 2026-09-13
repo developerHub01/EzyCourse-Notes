@@ -1,0 +1,7 @@
+- Create
+	- Name
+	- Type
+		- Digital 
+		- Physical
+	- Image
+- Can have sub-category

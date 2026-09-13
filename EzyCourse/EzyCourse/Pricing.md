@@ -1,0 +1,3 @@
+- Facts
+	- Pricing location only trigger based on real location.
+		- So for testing have to use VPN by changing location.

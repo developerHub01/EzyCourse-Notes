@@ -22,3 +22,7 @@
 			- Value
 			- Is key feature
 	- After Checkout Page URL
+
+- Facts:
+	- Have only pricing **One Time Plan (Standard)**
+	- Can import in bulk

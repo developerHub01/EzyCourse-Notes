@@ -31,6 +31,7 @@
 
 
 - Can't duplicate.
+- Can't **DRAFT**
 
 - Non one-to-one coaching facts
 	- Anyone can see quiz leader-board, do not depends on visibility.
