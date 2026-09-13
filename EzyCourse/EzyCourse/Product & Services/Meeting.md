@@ -1,0 +1,2 @@
+- Facts:
+	- If directly create scheduled meeting without any appointment, only can enter after admin enter.

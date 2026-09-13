@@ -30,3 +30,4 @@
 		- Delivered![[Pasted image 20260913115740.png]]
 	- If refund (From order list)
 		- Then order will be cancel and user wont be able to access it anymore.
+	- One physical product can buy multiple times.
