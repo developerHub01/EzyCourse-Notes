@@ -1,2 +1,46 @@
+- Create
+	- Name
+	- Event Type
+		- In Person
+			- Location
+		- Native Meeting
+			- Configure native meeting
+				- Information
+					- Timezone
+					- Server Location
+				- Settings
+					- Secured Meeting (Default: Off)
+					- Participants can **chat**
+					- Participants can ask questions
+						- Questions are visible to everyone
+					- Participants can see who else is here
+					- Participants can share their screen
+					- Participants can unmute themselves
+		- Google Meet
+		- Custom Virtual Meeting
+			- Custom Link (Can accept any string, though don't know is that intended or not)
+			- 
+	- Sync with Google Calendar
+	- Description/Instruction
+	- Date Range
+		- Indefinitely into the future (Default)
+		- N (30) days into the future
+	- Duration (Default: 30 min, max 2 hours)
+	- Slots
+		- Weekly free slots
+		- ![[Pasted image 20260913173407.png]]
+		- Can exclude specific dates and slots
+	- Set your buffer time (at most 4 hours)
+		- Buffer time will not be applied when booking multiple slots at once.
+		- Buffer start time
+		- Buffer end time
+	- Access
+		- Public
+		- Restricted
+	- Send a reminder before 30 minutes
+	- Allow cancellation / rescheduling / Booking slots
+		- Before N hours
+
 - Facts:
+	- If an appointment do not allow multiple booking at single slot, then once a slot is booked no other person can book any other slot between that starting and end time of the slot.
 	- 
