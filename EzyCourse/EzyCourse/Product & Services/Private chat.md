@@ -1,0 +1,10 @@
+- There have 5 way to enable private chat
+	- Purchase from all products
+	- Purchase from messenger page
+	- Admin manually add from "Private Chat Members" page 
+	- Admin manually enable chat from "Students" page
+	- Admin manually enable chat from "Admin Users" page
+- Pricing
+	- All no tiered plans
+- Delete chat
+	- It only delete that user's messages from both side. Do not touch other sided user's messages

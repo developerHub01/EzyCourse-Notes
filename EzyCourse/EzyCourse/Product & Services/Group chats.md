@@ -27,3 +27,8 @@
 			- Emoji
 		- Meeting
 			- Select meeting from upcoming meetings 
+	- Can add group member in 3 way
+		- Enrollment from products list
+		- Manual enrollment by admin from students list
+		- Add a user as group member from that group chat members list page.
+	- Admin user (teacher) can't edit or mutate group chat setting only can message like other students.

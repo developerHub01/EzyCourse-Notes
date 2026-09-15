@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Product & Services/Group chats.md",
+                "file": "EzyCourse/Product & Services/Private chat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Group chats"
+              "title": "Private chat"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Product & Services/Meeting.md",
+                "file": "EzyCourse/Product & Services/Group chats.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meeting"
+              "title": "Group chats"
             }
           },
           {
@@ -218,14 +218,15 @@
   },
   "active": "563a23fca53ef042",
   "lastOpenFiles": [
-    "EzyCourse/Product & Services/Community.md",
     "EzyCourse/Product & Services/Group chats.md",
+    "EzyCourse/Product & Services/Private chat.md",
+    "EzyCourse/Product & Services/Meeting.md",
+    "EzyCourse/Product & Services/Community.md",
     "Pasted image 20260914172539.png",
     "EzyCourse/Coaching/Coaching.md",
     "EzyCourse/Product & Services/Appointment.md",
     "Pasted image 20260913173407.png",
     "Pasted image 20260913173404.png",
-    "EzyCourse/Product & Services/Meeting.md",
     "EzyCourse/Product & Services/Physical Products.md",
     "EzyCourse/Product & Services/Digital Products.md",
     "EzyCourse/Product & Services/Product Categories.md",
