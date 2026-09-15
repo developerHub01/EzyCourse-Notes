@@ -1,0 +1,29 @@
+- Create
+	- Name
+	- Thumbnail
+	- Description
+	- Access
+		- Public
+		- Private Group
+		- Hidden Group
+		- Restricted Group
+	- Status
+		- Published
+		- Draft
+	- After checkout page URL
+	- Limit group members
+
+- Pricing
+	- All non tiered pricing
+
+- Facts
+	- Message
+		- Reply
+		- Remove
+		- React
+		- Support
+			- Upload File
+			- Gif
+			- Emoji
+		- Meeting
+			- Select meeting from upcoming meetings 
