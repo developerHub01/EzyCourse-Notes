@@ -1,0 +1,14 @@
+- Create **(Same as video library)**
+- Add Audio
+	- Title
+	- Description
+	- Short description
+	- Audio category
+	- Audio privacy
+		- Draft
+		- Published
+	- Audio
+	- Allow users to comment on the audio (Default: Off)
+	- Audio Thumbnail
+	- Enable free audio preview
+	- Publish Date

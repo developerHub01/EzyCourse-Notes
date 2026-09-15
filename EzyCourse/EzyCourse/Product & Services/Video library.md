@@ -1,0 +1,46 @@
+- Create
+	- Name
+	- Description
+	- Thumbnail
+	- Status
+		- Draft
+		- Published
+		- Password protected
+	- Access
+		- Public 
+		- Private
+		- Restricted
+	- After Checkout Page URL
+	- Landing Page
+	- Hide published date for every video (Default: Off)
+
+- Add Video
+	- Title
+	- Description
+	- Short description
+	- Include resource (Enrolled users can access it)
+	- Video category
+	- Video privacy
+		- Draft
+		- Published
+	- Video
+	- Allow users to comment on the video (Default: Off)
+	- Video Thumbnail
+	- Enable free video preview
+	- Drip Settings
+		- Immediately
+		- Days after enrollment (paid libraries only)
+		- Scheduled Date
+
+- Facts:
+	- If video library is public but video is draft then that video is visible through the URL
+	- Video have **"watch later"** option, and can see from **"Watch Later"** library placed at the very bottom of the list
+	- If video library is draft and access video through URL then shows nothing in content only header and footer
+
+
+- Facts for both library:
+	- In both case there are two view:
+		- Grid View
+			- Mainly for editing or removing any item
+		- List View
+			- Mainly for ordering (D&D)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Product & Services/Private chat.md",
+                "file": "EzyCourse/Product & Services/Video library.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private chat"
+              "title": "Video library"
             }
           },
           {
@@ -218,8 +218,10 @@
   },
   "active": "563a23fca53ef042",
   "lastOpenFiles": [
-    "EzyCourse/Product & Services/Group chats.md",
+    "EzyCourse/Product & Services/Audio library.md",
+    "EzyCourse/Product & Services/Video library.md",
     "EzyCourse/Product & Services/Private chat.md",
+    "EzyCourse/Product & Services/Group chats.md",
     "EzyCourse/Product & Services/Meeting.md",
     "EzyCourse/Product & Services/Community.md",
     "Pasted image 20260914172539.png",
