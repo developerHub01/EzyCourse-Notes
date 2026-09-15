@@ -1,0 +1,69 @@
+- Create
+	- Name
+	- Profile
+	- Thumbnail
+	- Cover
+	- Description
+	- Short Description
+	- Allow all community members to chat with each other
+		- This just determine that can user see chat option in members list or not.
+	- Access
+		- PUBLIC 
+		- PRIVATE
+		- HIDDEN
+		- RESTRICTED
+	- Approval settings
+		- Required
+		- Not Required (Default)
+	- Disable anonymous posting for this community
+	- Community Privacy and Visibility (Anyone can view posts and activities but only members can interact with feeds, but **only through URL of community or community post**).
+		- Everyone (Default)
+		- Member Only
+	- After Checkout Page URL
+	- Show community members list on right side of the community (Default: Enabled)
+	- Visibility
+		- Always show community members (Default)
+		- Show members after posting something
+			- ⚠️⚠️⚠️ It mean if a student post anything only then he can see the member list in right side, if didn't post anything he will see full empty area in member list place.
+	- Limit community enrollments
+
+- Create new channel
+	- Name
+	- Description (optional)
+	- Post Permission
+		- Everyone can post
+		- Only admin can post
+	- Pricing
+		- Free
+		- Premium
+			- Price Type
+				- One Time
+				- Subscription
+		- Locked
+- Tabs
+	- Options
+		- My Feed
+			- All posts by me
+		- Saved Posts
+		- Hidden Posts
+		- Leaderboard
+		- Meeting: 
+			- When try to add it will show only upcoming meeting from meeting module in the list.
+			- ![[Pasted image 20260914172539.png]]
+		- Members
+		- Photos
+		- Videos
+		- Audios
+		- Files
+		- Events
+		- Courses
+			- Can add courses and make any course free from 
+	- Facts:
+		- Tab can customize
+		- Admin can show hide any tab item from tab
+		- 
+
+- Facts:
+	- Pricing
+		- Allows only all non-tiered pricing
+	- 
