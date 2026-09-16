@@ -1,5 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
 }

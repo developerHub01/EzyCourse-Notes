@@ -1,0 +1,66 @@
+- Create 
+	- Name
+	- Banner
+	- Cover (\*)
+	- Event Type
+		- In Person
+			- Options
+				- Location
+				- When will it happen
+					- Single day event
+						- Options
+							- Event date
+							- Event start time
+							- Event end time
+					- Multiple day event
+						- Options
+							- Start date
+							- End date
+				- Event timezone
+		- Custom Virtual Meeting
+			- Options
+				- Custom Link
+				- When will it happen
+					- Single day event
+						- Options
+							- Event date
+							- Event start time
+							- Event end time
+					- Multiple day event
+						- Options
+							- Start date
+							- End date
+				- Event timezone
+		- Native Live
+			- Configure native meeting![[Pasted image 20260916091735.png]]
+			- Set recurrence![[Pasted image 20260916091820.png]]![[Pasted image 20260916091845.png]]![[Pasted image 20260916091921.png]]![[Pasted image 20260916092008.png]]
+	- Short description (\*)
+	- Description (\*)
+	- Send a reminder 30 minutes before the event (Disabled)
+	- Hide enrolled members (Disabled)
+	- Limit event registrations (Disabled)
+	- Access
+		- Public
+		- Private
+		- Hidden
+		- Restricted
+	- After Checkout Page URL
+	- Event status
+		- Publish now
+		- Draft
+	- Hosts
+
+- Pricing plans
+	- One-time Plan(Standard)
+	- Subscription Plan(Standard)
+	- Donation Plan (One Time)
+	- Donation Plan (Recurring)
+- Actions
+	- View event
+	- Event participants
+	- Duplicate event
+		- It duplicate the event but not pricing
+	- Edit event
+		- While editing can't change event type
+	- Update category
+	- Delete event

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Product & Services/Video library.md",
+                "file": "EzyCourse/Product & Services/Membership.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Video library"
+              "title": "Membership"
             }
           },
           {
@@ -218,11 +218,18 @@
   },
   "active": "563a23fca53ef042",
   "lastOpenFiles": [
-    "EzyCourse/Product & Services/Audio library.md",
+    "EzyCourse/Product & Services/Meeting.md",
+    "EzyCourse/Product & Services/Membership.md",
+    "EzyCourse/Product & Services/Events.md",
+    "Pasted image 20260916092008.png",
+    "Pasted image 20260916091921.png",
+    "Pasted image 20260916091845.png",
+    "Pasted image 20260916091820.png",
+    "Pasted image 20260916091735.png",
     "EzyCourse/Product & Services/Video library.md",
+    "EzyCourse/Product & Services/Audio library.md",
     "EzyCourse/Product & Services/Private chat.md",
     "EzyCourse/Product & Services/Group chats.md",
-    "EzyCourse/Product & Services/Meeting.md",
     "EzyCourse/Product & Services/Community.md",
     "Pasted image 20260914172539.png",
     "EzyCourse/Coaching/Coaching.md",
@@ -239,16 +246,11 @@
     "EzyCourse/Product & Services",
     "EzyCourse/Course Module/Course.md",
     "Pasted image 20260904094554.png",
-    "Pasted image 20260911143310.png",
-    "Pasted image 20260911142719.png",
     "EzyCourse/Coaching/Week Based.md",
     "EzyCourse/Coaching/Continuous.md",
-    "Pasted image 20260910164131.png",
     "EzyCourse/Coaching/Tracker.md",
-    "Pasted image 20260910110605.png",
     "EzyCourse/Coaching/Tasks.md",
     "EzyCourse/Coaching/One to one.md",
-    "Pasted image 20260908145131.png",
     "EzyCourse/Coaching/Forms.md",
     "EzyCourse/Coaching/Lesson.md",
     "EzyCourse/Coaching/Exercis.md",

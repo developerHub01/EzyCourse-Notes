@@ -1,2 +1,7 @@
 - Facts:
 	- If directly create scheduled meeting without any appointment, only can enter after admin enter.
+	- Personal room meeting have auto secure meeting and at max 5 people including host.
+	- Type of meeting activation from meeting module
+		- Personal Room
+		- Instant meeting
+		- Schedule meeting

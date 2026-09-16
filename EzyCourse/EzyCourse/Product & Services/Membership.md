@@ -1,0 +1,17 @@
+- Settings (This is global means works for full website not based on specific item)
+	- Reactivation Pricing:** Choose how to charge expired or cancelled memberships upon reactivation (excludes on-time renewals)
+		- **Use Previous Price:** Keep the original subscription price regardless of subsequent price changes.
+		- **Use Current Price:** Apply the latest active membership plan price.
+- Checkout Page
+
+- Facts
+	- It is basically a group of products that intend to sell together
+	- Can have all types of pricing
+	- Can make group of membership plans
+		- Group works like Basic, Pro, Elite (as your wish)
+		- You can upgrade and downgrade your plan by choosing from these group prices as plan
+		- But group plan only will show for if those memberships pricing are into subscription plans
+		- One more thing if a product is in membership but student already have that product then there could have multiple product but both progress will handle differently. Means suppose student have course A and bough at membership containing that course then he will see two A course in dashboard both with different progress.
+	- Membership type
+		- Student
+		- Seller
