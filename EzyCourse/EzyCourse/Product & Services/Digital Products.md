@@ -13,6 +13,7 @@
 		- Draft
 	- Upload Digital Downloadable File
 		- Upload
+			- All type of document type files and zip and ai
 		- Link
 	- Upload Product Images
 	- Specifications
