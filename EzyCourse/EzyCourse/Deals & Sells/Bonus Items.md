@@ -1,0 +1,8 @@
+- Create
+	- Primary product
+	- Secondary product (Support multiple)
+	- Title
+	- Product Image
+	- Description
+- Facts:
+	- Unlike Order Bumps or Upsells in bonus item it allow to add bonus on all pricing or specific pricing.

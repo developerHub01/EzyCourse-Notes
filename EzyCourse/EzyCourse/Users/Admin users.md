@@ -1,0 +1,8 @@
+- Create
+	- First name
+	- Last name
+	- Email
+	- Password
+	- Role
+	- Admin current password
+	- Allow this user to chat with students

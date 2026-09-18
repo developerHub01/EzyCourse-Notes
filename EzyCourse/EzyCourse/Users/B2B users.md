@@ -1,0 +1,7 @@
+- Create
+	- Only it create when a user buy tiered course.
+	- Once choose a pricing plan type when enrollment next time only will show that type adding extra sits. Suppose organization choose a flat tier when enrolling so next time will have to choose from that plan when buying new sits
+	- Once enrolled next time even if admin update the pricing but still organization will see old pricing when adding new sits.
+	- Organization admin are called managers
+	- Organization manager can book sit for him
+	- Can export or import students

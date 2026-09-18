@@ -1,0 +1,20 @@
+- Create
+	- Auto-Assign Revenue Share --- Enable the toggle above to automatically assign this partner as a revenue partner whenever the partner creates a new item from the selected types (course, membership, community, product, group chat) — no manual setup required.
+	- Select admin user
+	- Percentage 
+	- Partnership type
+		- Options
+			- Course 
+			- Membership
+			- Community 
+			- Product
+			- Group Chat
+			- Single Chat
+		- Facts
+			- If auto-assign revenue share on
+				- Allow multiple partnership type when creating
+			- Else only one while creating
+	- Select product
+
+- Facts
+	- Can see payments from "Due Payments" from avatar menu top right corner.

@@ -1,0 +1,10 @@
+- Create:
+	- Primary product
+	- Primary product price
+	- Secondary product (Can have multipe)
+	- Title
+	- Upload Product Image
+	- Description
+- Facts:
+	- It is just extra suggestive sells
+	- It suggest student to buy related product along with primary
