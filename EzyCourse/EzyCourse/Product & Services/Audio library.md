@@ -3,11 +3,13 @@
 	- Title
 	- Description
 	- Short description
-	- Audio category
+	- Audio category (Multiple)
 	- Audio privacy
 		- Draft
 		- Published
 	- Audio
+		- Type:
+			- mp3, m4a, wav, ogg, oga
 	- Allow users to comment on the audio (Default: Off)
 	- Audio Thumbnail
 	- Enable free audio preview

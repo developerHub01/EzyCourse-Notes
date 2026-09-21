@@ -19,11 +19,13 @@
 	- Description
 	- Short description
 	- Include resource (Enrolled users can access it)
-	- Video category
+	- Video category (Multiple)
 	- Video privacy
 		- Draft
 		- Published
 	- Video
+		- Type:
+			-  mp4, mkv, mov
 	- Allow users to comment on the video (Default: Off)
 	- Video Thumbnail
 	- Enable free video preview

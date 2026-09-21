@@ -15,3 +15,4 @@
 	- Membership type
 		- Student
 		- Seller
+	- Can add community channel, but pre-requisite is that community has to be in that membership plan.

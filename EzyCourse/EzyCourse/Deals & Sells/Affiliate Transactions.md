@@ -1,0 +1,9 @@
+- Facts:
+	- Filter:
+		- All transactions
+		- Rejected
+		- Accepted
+		- Pending
+		- Paid
+		- Unpaid
+	- 

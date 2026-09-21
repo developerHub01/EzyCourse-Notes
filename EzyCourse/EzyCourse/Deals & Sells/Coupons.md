@@ -1,0 +1,45 @@
+- Create
+	- Select product
+		- All Products
+		- Only for private chat
+		- Courses
+			- All Courses
+			- Course1
+			- Course2
+			- ...
+			- ..
+			- Course X
+		- Coaching
+			- All Coaching
+			- Coaching1
+			- Coaching2
+			- ....
+			- ....
+			- CoachingX
+		- Community
+			- All Community
+			- ...
+			- ...
+		- .................. same goes for (Digital/Physical products, Video/Audio library, Events, Appointments, Blogs)
+	- Name
+	- Coupon Code
+	- Discount
+		- Type
+			- Fixed
+			- Percentage
+		- Fixed amount in currency or percentage
+	- Duration (how many times the coupon is applicable for a subscription based product)
+		- Once (only for the first payment)
+		- Forever 
+		- Repeating
+	- Duration in months (If duration set as repeating then can select for how man months it will keep valid).
+	- Quantity
+	- Max redemptions per customer (Leave blank for unlimited redemptions per customer).
+	- Expires at
+	- User (Single user)
+
+- Actions
+	- Publish/Unpublish
+	- Edit coupon
+	- Delete
+- 

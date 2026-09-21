@@ -1,0 +1,3 @@
+- Facts:
+	- Have a column for course, cause can enable pre-sell only for courses.
+	- 

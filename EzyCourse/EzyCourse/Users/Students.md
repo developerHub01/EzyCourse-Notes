@@ -2,10 +2,10 @@
 	- Signup
 	- Manual add (From admin)
 
-
-
 - Facts:
 	- ![[Pasted image 20260918092627.png]]
+	- ![[Pasted image 20260921130816.png]]
+
 	- Can filter by
 		- Name or email
 		- Product name

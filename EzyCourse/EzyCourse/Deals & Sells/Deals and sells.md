@@ -1,0 +1,3 @@
+- Fact:
+	- Order, Pre-order, Manual purchase all share same id but Purchase request do not follow same id (it use different id)
+	- Only purchase request have Coupon column among all order related page.

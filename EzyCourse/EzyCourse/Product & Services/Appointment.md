@@ -19,7 +19,6 @@
 		- Google Meet
 		- Custom Virtual Meeting
 			- Custom Link (Can accept any string, though don't know is that intended or not)
-			- 
 	- Sync with Google Calendar
 	- Description/Instruction
 	- Date Range

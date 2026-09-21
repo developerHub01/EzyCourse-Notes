@@ -40,6 +40,17 @@
 				- One Time
 				- Subscription
 		- Locked
+
+- Post actions
+	- Save post
+	- Turn on notifications
+	- View post
+	- Copy post link
+	- Hide
+	- Edit post
+	- Pin/Unpin post
+	- Delete post
+
 - Tabs
 	- Options
 		- My Feed
@@ -61,9 +72,7 @@
 	- Facts:
 		- Tab can customize
 		- Admin can show hide any tab item from tab
-		- 
 
 - Facts:
 	- Pricing
-		- Allows only all non-tiered pricing
-	- 
+		- Allows only all non-tiered pricing 

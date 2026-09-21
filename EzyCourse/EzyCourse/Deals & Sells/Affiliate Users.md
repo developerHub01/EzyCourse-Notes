@@ -1,0 +1,22 @@
+- Create:
+	- First Name
+	- Last Name
+	- Email
+	- Password
+	- Commission Value type
+		- Percentage
+		- Fixed
+	- Commission
+	- Allow affiliate member to add new affiliate members (Default: Disabled)
+		- Linked member commission Value type
+		- Linked member commision
+		- Linked member physical product commission Value type
+		- Linked member physical product commision
+
+- Facts:
+	- Once a student open website using affiliate ref, whatever product he will purchase that affiliate user will get commission, no matter he logout and login in new browser that saves in backend, basically that student linked with the affiliate user. But after that if user open another affiliate ref then he will be linked with that another affiliate user, so purchase commission that new aff will get.
+	- In aff there have option to add child aff and again that aff can add his own child but child commission will shared with only immediate parent.
+	- And commission relation with parent and child aff is bit confusing 
+		- Suppose A aff added B aff where A commission is 40 and linked member commission is 10%, here actually B user will get same as A user if user buy from B user, but A user will also get 10% of the product because B was added through A.
+		- It is kind of MLM but only in one level.![[Pasted image 20260921130314.png]]
+	
