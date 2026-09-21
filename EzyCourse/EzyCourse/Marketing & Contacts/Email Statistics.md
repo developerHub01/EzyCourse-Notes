@@ -1,0 +1,15 @@
+- Facts:
+	- Can see campaign wise or all campaign
+		- Matrix:
+			- **Sent**
+			- **Delivered**
+			- **Opened**
+			- **Clicked**
+			- **Total bounce**
+			- **Hard bounce**
+			- **Soft bounce**
+			- **Bounce rate**
+			- **Open rate**
+			- **Click rate**
+			- **Unsubscribed**
+		- Date range based filtering![[Pasted image 20260921161500.png]]

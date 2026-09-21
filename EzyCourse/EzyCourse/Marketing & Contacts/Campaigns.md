@@ -1,0 +1,64 @@
+- Create
+	- Details
+		- Title
+		- Subject (Only {{first_name}}, {{last_name}}, and {{email}} can be used in the email subject)
+		- Sender mail
+		- Sender name
+		- Reply mail
+		- Campaign topic (Optional)
+		- ![[Pasted image 20260921153059.png]]
+	- Recipients
+		- Three main targeting audiences: 
+			- ![[Pasted image 20260921153113.png]]
+			- User
+				- All
+				- Specific 
+				- Who has tag
+				- Who does not have tag
+				- Who purchased
+				- Who has not purchased
+				- Who was last active
+				- Who has not logged in for
+				- Users who submitted quizzes.
+				- Users who didn’t submit quizzes
+				- Users who posted in a community
+				- Users who didn’t posted in a community
+				- ...................
+				- ............
+				- ![[Pasted image 20260921153131.png]]
+			- Form Contacts (Both basic & advanced)
+				- All forms
+				- Specific forms
+				- Form responses with tags
+				- Specific contacts collected through forms.
+				- ![[Pasted image 20260921153140.png]]
+			- Advanced Form Contacts
+			- Retargeting
+				- Based on mail opening
+					- Who opened mail
+					- Who didn't open mail
+					- Who clicked any link
+					- Who didn't click any link
+					- Who clicked specific links
+					- Who didn't click specific links
+					- ...............
+					- ..................
+					- ![[Pasted image 20260921153148.png]]
+				- Based on Time 
+					- Anytime
+					- Last X hours
+					- Day
+					- Weeks
+					- Specific dates.
+		- ![[Pasted image 20260921153342.png]]
+	- Template
+		- Include dynamic variables such as {{first_name}}, {{last_name}}, and {{email}} (Couldn't find in template builder).
+		- ![[Pasted image 20260921153402.png]]
+	- Schedule
+		- Can send a test mail
+		- ![[Pasted image 20260921153422.png]]
+		- ![[Pasted image 20260921153427.png]]
+
+- Facts:
+	- A segment is a group of one or more conditions combined together.
+	- Conditions and segments can be connected using AND or OR rules.

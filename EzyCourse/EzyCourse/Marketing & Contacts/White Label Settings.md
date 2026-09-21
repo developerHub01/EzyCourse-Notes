@@ -1,0 +1,3 @@
+- Facts:
+	- **Email Feedback Forwarding**:
+		- To receive individual failure/bounce notification emails in your inbox for every undeliverable email in your campaigns.

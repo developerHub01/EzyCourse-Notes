@@ -1,0 +1,21 @@
+- Create
+	- Topic Name
+	- Description (Optional)
+- Edit
+	- Topic Name
+	- Description (Optional)
+	- Active (Default: Active)
+
+- Facts:
+	- Email marketing works best when your audience feels in control.
+	- This is basically for allowing users to unsubscribe specific topic mail instead of unsubscribing every mail.
+	- So once you create a topic can select topic when creating new campaign
+	- In mail template bottom there will appear two option
+		- Options:
+			- Manage your email preferences
+			- Unsubscribe
+		- Fact:
+			- Clicking on any link will open a preference modal where they can choose to unsubscribe from all upcoming emails or only from campaigns tagged with the selected campaign topic.
+			- Only the active campaign topics will be shown here.
+			- ![[Pasted image 20260921160821.png]]
+			- ![[Pasted image 20260921160826.png]]

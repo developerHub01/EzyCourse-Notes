@@ -1,0 +1,55 @@
+- Create
+	- Title
+	- Select audience
+		- All students
+		- Specific students
+			- Select users by mail
+		- Student who have X tags
+			- Select multiple tags
+		- Student who purchased course X but didn't complete yet.
+			- Select course
+		- Student who purchased course X and progress is under Y%
+			- Select course
+			- Progress
+		- Student who didn't complete the chapter X of course Y
+			- Course
+			- Chapter
+		- Student who didn't complete the lesson X of course Y
+			- Course
+			- Chapter
+			- Lesson
+		- Student who didn't submit quiz X
+			- Course 
+			- Chapter
+			- Quiz
+		- Student who didn't submit assignment X
+			- Course
+			- Chapter
+			- Assignment
+		- Student who didn't post anything in community X
+			- Select Community
+		- Retarget previous campaign
+			- Select campaign
+	- When to send
+		- Publish now
+		- Schedule for later
+			- Publish date
+			- Timezone
+	- Description
+
+
+- Actions:
+	- View
+		- To
+		- Email
+		- Title
+		- Description
+		- Status
+		- Failed reason
+		- Created at
+	- Edit
+	- Clone
+		- It ask to When to send
+			- Publish now
+			- Schedule for later
+	- Delete
