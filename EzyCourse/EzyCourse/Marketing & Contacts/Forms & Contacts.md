@@ -1,0 +1,9 @@
+- Create
+	- Contact Form
+		- **Requires Email, First Name, and Last Name.**
+		- Collects real contact information for users.
+		- Supports automations, follow-ups, and **email campaigns.**
+	- Data collection
+		- **Requires Email only.**
+		- Used for **surveys, feedback, and general responses.**
+		- Supports automations and follow-ups **(no email campaigns).**
