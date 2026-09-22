@@ -1,9 +1,68 @@
-- Create
-	- Contact Form
-		- **Requires Email, First Name, and Last Name.**
-		- Collects real contact information for users.
-		- Supports automations, follow-ups, and **email campaigns.**
-	- Data collection
-		- **Requires Email only.**
-		- Used for **surveys, feedback, and general responses.**
-		- Supports automations and follow-ups **(no email campaigns).**
+- Create:
+	- Type
+		- Contact Form
+			- **Requires Email, First Name, and Last Name.**
+			- Collects real contact information for users.
+			- Supports automations, follow-ups, and **email campaigns.**
+		- Data collection
+			- **Requires Email only.**
+			- Used for **surveys, feedback, and general responses.**
+			- Supports automations and follow-ups **(no email campaigns).**
+	- Form Settings
+		- Form name
+		- Email me when someone submits a response
+		- Force Double Opt-in
+		- Send responses to a third party email service
+		- Get Data from third party
+	- Input Creator
+		- Field Name
+		- Type
+			- Text
+				- Placeholder
+				- Minimum Characters
+				- Maximum Characters
+			- Email
+				- Placeholder
+			- Number
+				- Placeholder
+				- Minimum range
+				- Maximum range
+			- Select
+				- Placeholder
+				- Options (**Example: option1;option2;option3**)
+			- Textarea
+				- Placeholder
+				- Maximum length
+			- Checkbox
+				- Options (**Example: option1;option2;option3**)
+			- Radio box
+				- Options (**Example: option1;option2;option3**)
+			- Rating
+				- Allow half rating
+					- Allowed (Default: Disabled)
+				- Number of starts (Default :5)
+			- Date & Time
+			- Date
+			- Time
+			- Slider
+				- Add Marks
+					- Options
+						- value
+						- label
+					- Facts: 
+						- Can have multiple marks
+				- Minimum Value (Default : 0)
+				- Maximum Value (Default : 100)
+		- Show validation (Default: Enabled)
+		- Required (Default: Disabled)
+
+- Actions:
+	- View contact response
+	- Import contacts
+	- Edit
+	- Delete
+
+- Facts:
+	- Can change field name and placeholder text for different languages
+	- Can import or export response for a custom form
+	- Can see `Form Id | Contacts Form Name | Double Opt In | Contacts Count` in list table
