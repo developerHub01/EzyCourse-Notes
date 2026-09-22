@@ -1,0 +1,126 @@
+- Create
+	- Title
+	- Description
+	- Type
+		- Contact Form
+			- **Requires Email, First Name, and Last Name.**
+			- Collects real contact information for users.
+			- Supports automations, follow-ups, and **email campaigns.**
+		- Data collection
+			- **Requires Email only.**
+			- Used for **surveys, feedback, and general responses.**
+			- Supports automations and follow-ups **(no email campaigns).
+
+
+- Builder:
+	- Field Types
+		- Contact
+			- Email
+				- Field Label
+				- Information (Shows in tooltip `i`)
+				- Placeholder
+				- Error Message for Validation
+			- First name
+				- Required
+			- Last name
+		- Basic
+			- Address
+				- Address Fields
+				- Add Option
+					- Label
+					- Placeholder
+					- Required (Checkbox, default: Off)
+				- Default fields
+					- Street
+					- City
+					- State
+					- Postal/zip code
+			- Paragraph
+				- Paragraph Content
+			- Phone
+			- Signature
+			- Country
+			- Language
+			- Short text
+				- Options
+					- Min Length
+					- Max Length
+					- Maximum Length Error Message
+				- Facts:
+					- Single line
+			- Long text
+				- Options
+					- Min Length
+					- Max Length
+					- Maximum Length Error Message
+				- Multi-line
+			- Number
+			- Password			
+				- Options
+					- Min Length
+					- Max Length
+					- Maximum Length Error Message
+					- Required password confirmation (Off)
+				- Secure password input with hidden characters
+		- Choice
+			- Single choice
+				- Calculation values (Off)
+				- Options
+					- Label
+					- Value (if calculation values is enabled)
+				- Add option
+			- Multiple choice
+				- Same as **Single choice**
+			- Dropdown
+				- Allow multiple (No calculation)
+				- Same as **Single choice**
+		- Media
+			- File upload
+				- File extensions
+					- **7z | avi | csv | doc | docx | gif | jpeg | jpg | mkv | mov | mp3 | mp4 | pdf | ppt | pptx | rar | svg | txt | wav | xls | xlsx | zip**
+				- Support multiple.
+		- Advanced
+			- Form calculation
+				- Symbol
+				- ![[Pasted image 20260922155055.png]]
+
+
+	- All fields out of CONTACT support **Show Hide Field Settings**
+		- Two type
+			- Static
+			- Dynamic
+			- Options
+				- Select source field
+				- Operator
+					- ===
+					- !==
+					- Truthy
+					- Falsy
+				- (Static? "Condition Value" : "Value to compare with the field")
+				- Show / Hide based on condition
+		- Clear condition
+	- All field support 
+		- Required
+		- Hide
+
+- Settings:
+	- Captcha
+		- Set google recaptcha api from global settings
+	- Feedback Settings
+		- Can add multiple feedback with conditions, calculations and feedback message
+	- Redirect Settings
+		- Redirect timing
+			- After submit (Default)
+			- After feedback
+	- Third Party Services
+		- Send responses to a third party email service
+		- Get Data from third party
+		- Email me when someone submits a response
+	- Save partial submissions (Default: Enabled)
+		- If disabled, student responses will not be saved until final submission.
+- Facts:
+	- In conditional show hide files are basically two type
+		- Static 
+			- It compare a field with static data
+		- Dynamic
+			- It compare a field with other field 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Marketing & Contacts/White Label Settings.md",
+                "file": "EzyCourse/Marketing & Contacts/Forms & Contacts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "White Label Settings"
+              "title": "Forms & Contacts"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Marketing & Contacts/Forms & Contacts.md",
+                "file": "EzyCourse/Marketing & Contacts/Advanced Forms & Contacts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forms & Contacts"
+              "title": "Advanced Forms & Contacts"
             }
           }
         ],
@@ -205,6 +205,10 @@
   },
   "active": "a70c4d57ee3fd32b",
   "lastOpenFiles": [
+    "Pasted image 20260922155055.png",
+    "EzyCourse/Marketing & Contacts/Forms & Contacts.md",
+    "EzyCourse/Marketing & Contacts/White Label Settings.md",
+    "EzyCourse/Marketing & Contacts/Advanced Forms & Contacts.md",
     "EzyCourse/Marketing & Contacts/Push Notifications.md",
     "EzyCourse/Marketing & Contacts/Email Statistics.md",
     "EzyCourse/Marketing & Contacts/Untitled.md",
@@ -213,7 +217,6 @@
     "Pasted image 20260921160826.png",
     "Pasted image 20260921160821.png",
     "EzyCourse/Marketing & Contacts/Campaigns.md",
-    "EzyCourse/Marketing & Contacts/White Label Settings.md",
     "Pasted image 20260921153427.png",
     "Pasted image 20260921153422.png",
     "Pasted image 20260921153402.png",
@@ -226,8 +229,6 @@
     "EzyCourse/Marketing & Contacts/Automation Topics.md",
     "EzyCourse/Marketing & Contacts/Automation Workflows.md",
     "EzyCourse/Marketing & Contacts/Templates.md",
-    "EzyCourse/Marketing & Contacts/Advanced Forms & Contacts.md",
-    "EzyCourse/Marketing & Contacts/Forms & Contacts.md",
     "EzyCourse/Deals & Sells/Affiliate Transactions.md",
     "EzyCourse/Marketing & Contacts",
     "EzyCourse/Deals & Sells/Deals and sells.md",
@@ -241,7 +242,6 @@
     "EzyCourse/Product & Services/Membership.md",
     "EzyCourse/Coaching/Coaching.md",
     "EzyCourse/Course Module/Course.md",
-    "EzyCourse/Product & Services/Product Categories.md",
     "EzyCourse/Deals & Sells",
     "EzyCourse/Users",
     "EzyCourse/Product & Services",
