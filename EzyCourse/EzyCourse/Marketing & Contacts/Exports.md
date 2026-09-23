@@ -1,0 +1,3 @@
+- Facts:
+	- Files are available for **30 days**. After that, they are automatically deleted from servers.
+	- This is just a tracker of list or data export of the site, so whatever data will export there will be it's log and backup (30days) 

@@ -1,0 +1,49 @@
+- Create
+	- Trigger
+		- Someone signup
+		- Someone submit a form
+		- Someone purchase x product / Add B2B users
+		- Abandon Checkout
+		- Someone submit an advanced contact form
+		- Internal Automation Task Addon
+			- Someone cancel a subscription
+			- Someone renew a subscription
+			- Someone assign a tag
+			- Someone remove a tag
+			- Someone complete a quiz
+			- Someone complete a course
+			- Someone complete a lesson
+			- Someone complete a chapter
+			- Someone post a first post in a community (Coming Soon)
+			- Someone message a first message in a group chat (Coming Soon)
+			- Someone message a first private message (Coming Soon)
+			- Webhook Invoke Trigger
+
+
+	- Add action
+		- Send Email
+		- Wait Steps
+		- Add Tags
+		- Remove Tags
+		- Add to Contact List
+		- Remove from Contact List
+		 - Automation Task
+			- Trigger Webhook and Send Data
+			- Assign/Enroll to a Product
+			- Assign or enrol a contact to a product
+			- Remove/Unenroll from a Product
+			- Send a coupon code
+			- Send Private Message (Coming Soon)
+			- Send Pop Up Notification In App (Coming Soon)
+			- Send Mobile Push Notification (Coming Soon)
+			- Send Transactional Email (Coming Soon)
+			- Generate AI Assistant Reply (Coming Soon)
+			- Give Points
+			- Give Coins
+			- Send self email notification
+
+
+- Facts:
+	- Available variables for email {{id}}{{first_name}}{{last_name}}{{name}}{{email}}{{phone_number}}{{phone_country_code}}
+	- Flow editor do not get auto-save.
+	- Can **clone** by renaming or default with copy suffix. 

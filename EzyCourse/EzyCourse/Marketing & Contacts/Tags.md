@@ -1,0 +1,13 @@
+- Create
+	- Tag name
+
+- Facts:
+	- Tag list contain
+		- Id
+		- Name
+		- Actions
+			- View Tagged Students
+			- Edit
+			- Delete
+	- This is basically tags for students, so tags created here can use for tagging students from students list.
+	- Basically helps for automation campaign to categorized students based on state.

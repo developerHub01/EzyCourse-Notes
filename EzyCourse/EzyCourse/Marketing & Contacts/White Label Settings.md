@@ -1,3 +1,11 @@
+- Create
+	- Domain 
+	- Sender name - name of the sender displayed in the email
+	- Sender email - must match the verified domain
+	- Reply email  - where recipients’ replies are received
+	- Mail From Prefix -  helps identify the direct incoming mail to specific inboxes.
+	- ![[Pasted image 20260923120723.png]]
+
 - Facts:
 	- **Email Feedback Forwarding**:
 		- To receive individual failure/bounce notification emails in your inbox for every undeliverable email in your campaigns.
