@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5425c6b748ed1466",
+        "id": "1fdb1d3c4313c231",
         "type": "tabs",
         "children": [
           {
-            "id": "a70c4d57ee3fd32b",
+            "id": "e7e7141cf7b0b7cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Marketing & Contacts/Templates.md",
+                "file": "EzyCourse/Site settings/General Settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Templates"
+              "title": "General Settings"
             }
           }
         ]
@@ -188,11 +188,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "a70c4d57ee3fd32b",
+  "active": "e7e7141cf7b0b7cb",
   "lastOpenFiles": [
+    "EzyCourse/Site settings/General Settings.md",
+    "EzyCourse/Site settings",
+    "EzyCourse/Marketing & Contacts/Templates.md",
     "EzyCourse/Marketing & Contacts/White Label Settings.md",
     "EzyCourse/Marketing & Contacts/Tags.md",
-    "EzyCourse/Marketing & Contacts/Templates.md",
     "Pasted image 20260923120723.png",
     "EzyCourse/Marketing & Contacts/Exports.md",
     "EzyCourse/Marketing & Contacts/Automation Workflows.md",
