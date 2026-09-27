@@ -30,20 +30,134 @@
 					- Allow checkout without manual approval
 				- Fact:
 					- This means if allow manual approval 
-    
-
-## New affiliates
-
-- Disable new signups
-    
-- Require email verification
-    
-- Require manual approval
-	- Payment
+		- New affiliates
+			- Disable new signups
+			- Require email verification  
+			- Require manual approval
+				- Payment
+				- Connections
+				- Cookies setting
+				- Invoice settings
+				- PDF stamp settings
+				- LLMs.txt
+				- Site Map
+				- Robots.txt
+		- New students from checkout page
+			- If Enable
+				- When
+					- Always
+					- First login only
+				- Page type
+					- Custom page
+						- Select page
+					- External page
+						- URL
+			- Default disabled
+		- Add custom fields at signup
+			- Facts:
+				- Can add custom fields in signup widget
+			- Option
+				- Name
+				- Placeholder
+				- Show validation
+					- If enable
+						- Required (Default: disabled)
+						- Minimum Characters
+						- Maximum Characters
+					- Default disable
+		- Please enable Two Factor Authentication for enhanced security.
+			- This is basically for admin security, so that next time if he login need **2FA**
+		- Force Two Factor Authentication
+		- Affiliate Sign up checkbox text
+			- Enable signup checkbox (Basically signup terms and condition checkbox and label)
+	- Payment:
+		- Currency
+			- Default currency
+			- Multiple currency (Default: disabled)
+		- Card Payment Methods
+			- Enable on-site card payment
+				- If enabled then payment will be happen inside the app
+				- Else payment will be outside the app, in that payment system landing page
+			- Use new payment element
+		- Manual Payment Methods
+			- Default: Disabled
+			- Can write manual payment instruction in rich text editor
+			- Add custom fields at manual payment
+				- Name
+				- Type
+					- Text
+					- Number
+					- Text area
+				- Placeholder
+				- Show validation
+					- Required (checkbox)
+					- Minimum/Maximum character/range
+					- 
 	- Connections
+		- Connect your calendar
 	- Cookies setting
+		- Cookies Setting
+			- If you want the **"Accept Cookies"** prompt to appear at the bottom, **ENABLE** this option.
+		- Tracking Consent Setting
+			- If you want users to **Accept Cookies** before any tracking is activated, **ENABLE** this option41
 	- Invoice settings
+		- General settings
+			- Invoice attachment (Include invoice PDF with order fulfillment email)
+			- Invoice number (Display a sequential invoice number on each invoice)
+		- Currency format
+			- Currency Symbol (e.g. $)
+			- Currency Code (e.g. USD)
+			- Currency Symbol & Code (e.g. $ USD)
+		- Invoice information
+			- Business name
+			- Address
+			- Phone
+			- Email
+			- VAT ID
+			- Date format
+				- DD/MM/YY
+				- MM/DD/YY
+				- YY/MM/DD
+			- Custom fields (up to 4)
+				- Label
+				- Value
+			- Invoice language
+				- Translation invoice texts based on specific language.
+
 	- PDF stamp settings
+		- Areas
+			- Top left
+			- Top center
+			- Top right
+			- Center
+			- Bottom left
+			- Bottom center
+			- Bottom right
+		- Options
+			- Content (Checkbox) 
+				- Image
+					- PNG, JPG, JPEG
+				- Name
+				- Email
+				- Id
+			- Visual
+				- Color
+				- Font size
+				- Opacity
+		- Facts
+			-  All updated settings will be applied to newly uploaded PDFs only.
+
 	- LLMs.txt
-	- Site Map
+		- ![[Pasted image 20260927114617.png]]
+
+	- Sitemap.xml
+		- /sitemap.xml
+		- RSS Feed url
+			- /api/rss-feed
+		- Audio Library RSS Feed URL
+			- /api/rss-audio-library
+
+		- Fact:
+			- Under the hood, **it is just a standard API endpoint** that outputs data in a specific XML format rather than JSON. When a browser, reader, or app hits that URL, your server serves up a structured list of your latest content.
 	- Robots.txt
+		- The [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) file tells search engine crawlers which pages they can access. Served at `/robots.txt`.

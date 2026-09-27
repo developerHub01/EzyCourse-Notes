@@ -1,0 +1,85 @@
+- Student Profile Settings
+	- Enrolled Courses
+	- Enrolled Communities
+	- Enrolled Groups
+	- Events
+	- Certificates Achieved
+	- Earned Badges
+	- ![[Pasted image 20260927123602.png]]
+	- ![[Pasted image 20260927123421.png]]
+	- Facts:
+		- Can access through direct URL or from community members list.
+		- Can reorder the tab menu item list.
+
+- Password Strength
+	- Default: Disabled
+	- Options
+		- Include a hide/show password option
+		- include password confirmation field
+		- Min chars
+		- Max chars
+		- Password must have (checkbox)
+			- One upper case
+			- One lower case
+			- One number
+			- One special characters
+
+- Editable checkout page (Default: Disabled)
+- Form Submission Limit
+- Advanced Form Recaptcha Key Settings
+- Magic Login Expiry Time
+- Enable Checkout Cart
+- Enable PayPal for affiliates
+- Disable Keyboard Shortcuts 
+	- `Ctrl A`, `Ctrl C`, `Ctrl P`, `F12` and `Right click context menu`
+- Player Settings
+	- Player color
+	- Enable watermark
+	- Logo watermark settings
+		- Enable logo watermark
+			- Choose logo
+			- Logo opacity
+			- Logo Style
+				- Moving
+				- Fixed
+			- Select logo position
+				- Center
+				- Top left
+				- Top right
+				- Bottom left
+				- Bottom right
+				- Center left
+				- Center right
+				- Center top
+				- Center bottom
+			- Logo width X px
+			- Logo height Y px
+	- Text watermark settings
+		- Same as logo wathermark settings
+
+- Select Course Details Page (Template)
+	- ![[Pasted image 20260927150104.png]]
+- Disable Manual Order Revenue
+- Tax settings
+	- Select Tax behavior
+		- Inclusive 
+		- Exclusive
+	- Select global tax code
+	- Product tax settings (tax code based on product, if no product text exits then global tax will impect)
+- Tax ID
+- Stop course view from website
+	- Redirect URL
+- Grace Period for Subscriptions
+- Facebook Server Side Conversion
+- Review Setting
+	- Enable Review for Courses
+	- Review After
+		- Completed Course
+		- Complete Percentage
+			- Percentage Value
+	- Review Default Value (0-5, Default: 0)
+	- Auto Approve Review (Default: disabled)
+
+- Revenue Partner Commission Setting
+	- Revenue partner gets full payout (even with coupons)
+- Prevent Slot Refund on Student Removal (B2B)

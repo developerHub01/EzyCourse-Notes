@@ -1,0 +1,13 @@
+- Show Points & Badges on Student Dashboard (Toggle)
+- Points
+	- Signup
+	- Purchase product
+	- Complete course
+	- Complete chapter
+	- Complete lesson
+	- Post to community
+- Badges
+	- Add/edit badge
+		- Image
+		- Title
+		- Required points

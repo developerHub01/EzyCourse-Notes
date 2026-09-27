@@ -1,0 +1,33 @@
+- Student Product Setting
+	- Show limited access duration (Show a chip if have limited access duration)
+	- Show expired products (If a enrolled product is expired then it will show in enrolled product list with an **'expired'** chip)
+
+- Custom Menu
+	- Label
+	- Link
+	- Opne in new tab (Checkbox, default: Disabled)
+
+- Student Dashboard Sidebar (Control visibility of menu item**, Toggle**)
+	- Premium Pages
+	- Dashboard
+	- Profile (Always show, can't hide)
+	- Coaching Programs
+	- Memberships
+	- Courses
+	- Communities
+	- Groups
+	- Digital Products
+	- Physical Products
+	- Live Products
+	- Video Library
+	- Appointments & Events
+	- Audio Library
+	- Certificates
+	- Badges
+	- Order History
+	- Organization Orders
+	- Subscription
+	- Affiliate Dashboard
+	- Settings
+	- Billing
+	- Coin History

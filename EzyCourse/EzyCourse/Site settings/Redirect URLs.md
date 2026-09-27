@@ -1,0 +1,13 @@
+- Add
+	- Incoming Slug {{YOUR_DOMAIN}}/ SLUG
+	- Destination URL
+	- Status Code
+		- 301 - Permanent redirection 
+			- Mainly for SEO purpose, so that search engine can shift SEO perspective here.
+			- It may take 7-8 minutes.
+		- 302 - Temporary redirection
+			- Mainly for temporary purpose like event or promotional campaign.
+- Options
+	- Inactive
+	- Edit
+	- Delete

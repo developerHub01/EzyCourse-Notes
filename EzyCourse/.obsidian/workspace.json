@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdb1d3c4313c231",
+        "id": "ef49e21b971eea53",
         "type": "tabs",
         "children": [
           {
-            "id": "e7e7141cf7b0b7cb",
+            "id": "e88bb5df6ec22c74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EzyCourse/Site settings/General Settings.md",
+                "file": "EzyCourse/Site settings/Student Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Settings"
+              "title": "Student Dashboard"
             }
           }
         ]
@@ -188,9 +188,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7e7141cf7b0b7cb",
+  "active": "e88bb5df6ec22c74",
   "lastOpenFiles": [
+    "EzyCourse/Site settings/Gamification.md",
+    "EzyCourse/Site settings/Student Dashboard.md",
     "EzyCourse/Site settings/General Settings.md",
+    "EzyCourse/Site settings/Global setting.md",
+    "EzyCourse/Site settings/Redirect URLs.md",
+    "EzyCourse/Site settings/Checkout.md",
+    "Pasted image 20260927150104.png",
+    "Pasted image 20260927123602.png",
+    "Pasted image 20260927123544.png",
+    "Pasted image 20260927123421.png",
+    "Pasted image 20260927114617.png",
+    "EzyCourse/Course Module/Course.md",
     "EzyCourse/Site settings",
     "EzyCourse/Marketing & Contacts/Templates.md",
     "EzyCourse/Marketing & Contacts/White Label Settings.md",
@@ -210,11 +221,6 @@
     "Pasted image 20260921160826.png",
     "Pasted image 20260921160821.png",
     "EzyCourse/Marketing & Contacts/Campaigns.md",
-    "Pasted image 20260921153427.png",
-    "Pasted image 20260921153422.png",
-    "Pasted image 20260921153402.png",
-    "Pasted image 20260921153342.png",
-    "Pasted image 20260921153148.png",
     "EzyCourse/Deals & Sells/Affiliate Transactions.md",
     "EzyCourse/Marketing & Contacts",
     "EzyCourse/Deals & Sells/Deals and sells.md",
@@ -222,12 +228,6 @@
     "EzyCourse/Deals & Sells/Affiliate Default Settings.md",
     "EzyCourse/Users/Students.md",
     "EzyCourse/Deals & Sells/Affiliate Users.md",
-    "EzyCourse/Product & Services/Community.md",
-    "EzyCourse/Product & Services/Physical Products.md",
-    "EzyCourse/Product & Services/Digital Products.md",
-    "EzyCourse/Product & Services/Membership.md",
-    "EzyCourse/Coaching/Coaching.md",
-    "EzyCourse/Course Module/Course.md",
     "EzyCourse/Deals & Sells",
     "EzyCourse/Users",
     "EzyCourse/Product & Services",
